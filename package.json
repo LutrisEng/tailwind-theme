@@ -1,0 +1,25 @@
+{
+  "name": "@lutris/tailwind-theme",
+  "version": "0.1.0",
+  "description": "The Tailwind CSS theme for the Lutris Engineering brand guide",
+  "main": "index.js",
+  "repository": "https://github.com/LutrisEng/tailwind-theme",
+  "author": "Piper McCorkle <piper@lutris.engineering>",
+  "license": "BlueOak-1.0.0 OR BSD-2-Clause-Patent",
+  "scripts": {
+    "build-example": "postcss example/styles.css -o example/out/styles.css && ncp example/index.html example/out/index.html"
+  },
+  "private": false,
+  "dependencies": {},
+  "peerDependencies": {
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
+    "ncp": "^2.0.0",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  }
+}
